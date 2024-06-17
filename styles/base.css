@@ -1,0 +1,142 @@
+body {
+    max-width: 950px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    background-color: darkslateblue;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.highlight {
+    color: rgb(255, 238, 0);
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    padding: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: overline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid gray;
+
+}
+
+.card header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+.card p {
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.profile {
+    width: 150px;
+    height: auto;
+    border: 1px solid darkslateblue;
+    padding: 2px;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    margin-right: 10px;
+}
+
+.city {
+    width: 200px;
+    border: 1px solid darkslateblue;
+    padding: 2px;
+    float: left;
+    margin: 0 0 1rem 1rem;
+    margin-right: 10px;
+}
+
+.subsection h3 {
+    position: relative;
+    text-align: center;
+}
+
+.subsection p {
+    padding: 10px;
+}
+
+.subsection2 {
+    margin-top: 100px;
+}
+
+.subsection2 ul li a {
+    text-decoration: none;
+    color: steelblue;
+    list-style: none;
+    padding: 1rem;
+}
+
+.subsection2 ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
