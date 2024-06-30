@@ -16,7 +16,7 @@
         flex-direction: row;
     }
     #menu {
-        display: none;
+        display: block;
     }
 }
 @media (min-width: 37.5em) {
@@ -31,9 +31,9 @@
     }
 }
 
-/* Media query for smaller screens */
-/* @media (max-width: 739px) {
+
+@media (max-width: 739px) {
     #menu {
         display: block;
     }
-} */
+}
