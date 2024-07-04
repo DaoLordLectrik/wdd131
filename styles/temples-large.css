@@ -31,9 +31,17 @@
     }
 }
 
+<<<<<<< HEAD
 /* Media query for smaller screens */
+=======
+
+>>>>>>> 7aff83b59b89fcb5b2c5db03146c1221980f8cfb
 @media (max-width: 739px) {
     #menu {
         display: block;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7aff83b59b89fcb5b2c5db03146c1221980f8cfb
