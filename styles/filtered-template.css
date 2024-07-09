@@ -1,0 +1,103 @@
+
+body {
+  margin: 0;
+  font-family: "Sansita", sans-serif;
+}
+
+/* small view navigation */
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
+  color: #000;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "❎";
+}
+
+img {
+  max-width: 100%;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  align-self: flex-start; /* Align h2 to the flex-start */
+}
+
+.navigation a {
+  display: none;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #bbb;
+  color: #333;
+  font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+  display: block;
+}
+
+header {
+  background-color: #E4C59E;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px #333;
+}
+
+.res-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: 0 30px;
+}
+
+section {
+  text-align: center;
+  font-size: small;
+  background-color: #e4e3e1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  height: fit-content;
+  margin-top: 50px;
+  background-color: #E4C59E;
+  padding: 5px;
+}
+
+section img {
+	width: 100%;
+	height: auto;
+	display: block;}
