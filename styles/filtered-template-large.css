@@ -3,12 +3,12 @@
 
 
 	#menu {
-		display: block; /* hide hamburger button */
+		display: hidden; /* hide hamburger button */
 	}
 	header {
 		display: flex;
 		align-items: center;
-	justify-content: space-between;
+	    justify-content: space-between;
 	}
 	.navigation {
        
@@ -16,18 +16,13 @@
 		flex-direction: row;
 	}
 
-
 	.navigation a {
 		display: block;
 		flex: 1 1 100%;
-       
 	}
  
     .res-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr ;
     }
-
-	
-
 }

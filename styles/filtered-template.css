@@ -6,6 +6,7 @@ body {
 
 /* small view navigation */
 #menu {
+  display: block;
   font-size: 1.5rem;
   border: 0;
   background: none;
