@@ -1,9 +1,9 @@
 
-@media (min-width: 37.5em) {
+@media screen and (min-width: 700px) {
 
 
 	#menu {
-		display: hidden; /* hide hamburger button */
+		display: block; /* hide hamburger button */
 	}
 	header {
 		display: flex;
@@ -21,8 +21,14 @@
 		flex: 1 1 100%;
 	}
  
-    .res-grid{
+    /* .res-grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr ;
+    }     */
+	
+	.res-grid{
+        display: inline-grid;
+		justify-items: center;
+        /* grid-template-columns: 1fr 1fr ; */
     }
 }

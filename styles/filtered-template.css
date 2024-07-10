@@ -74,10 +74,17 @@ header {
 }
 
 .res-grid {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
-  margin: 0 30px;
+  margin: 0 30px; */
 }
 
 section {
