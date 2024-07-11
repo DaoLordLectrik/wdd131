@@ -20,13 +20,34 @@ document.getElementById("lastModified").textContent = `Last modified: ${lastModi
 
 const temples = [
 	{
-	  templeName: "Aba Nigeria",
-	  location: "Aba, Nigeria",
-	  dedicated: "2005, August, 7",
-	  area: 11500,
-	  imageUrl:
-	  "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
-	},
+		templeName: "Accra Ghana",
+		location: "Accra, Ghana",
+		dedicated: "2004, January, 11",
+		area: 11500,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg"
+	  },	{
+		templeName: "Belém Brazil",
+		location: "Belém, Brazil",
+		dedicated: "2022, November, 20",
+		area: 11500,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/400x250/belem_brazil_temple_exterior2.jpg"
+	  },	{
+		templeName: "Cardston Alberta",
+		location: "Cardston, Alberta",
+		dedicated: "1923, August, 26",
+		area: 11500,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cardston-alberta/400x250/cardston-alberta-temple-lds-782043-wallpaper.jpg"
+	  },	{
+		templeName: "Aba Nigeria",
+		location: "Aba, Nigeria",
+		dedicated: "2005, August, 7",
+		area: 11500,
+		imageUrl:
+		"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+	  },
 	{
 	  templeName: "Manti Utah",
 	  location: "Manti, Utah, United States",
@@ -75,8 +96,8 @@ const temples = [
 	  imageUrl:
 	  "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
 	},
-	// Add more temple objects here...
-  ];
+
+];
 
 
 const homeLink = document.getElementById("home-link");
@@ -88,7 +109,7 @@ const heading = document.querySelector(" h3");
 
 createTemple(temples);
 
-// this code is  refering to a actual info when user click  the link
+// This filters the list from navigation
 homeLink.addEventListener("click", () => {
   createTemple(temples);
   heading.textContent = " Home ";
@@ -124,11 +145,7 @@ smallLink.addEventListener("click", () => {
   heading.textContent = "Small"
 });
  
-// end of code 
-
-
-
-//this code  will display info about temples 
+//Display the temple information
   function createTemple(ftemble) {
 	document.querySelector(".res-grid").innerHTML ="";
 	ftemble.forEach(temple =>{
