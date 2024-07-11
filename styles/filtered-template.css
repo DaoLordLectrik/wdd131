@@ -42,7 +42,7 @@ img {
 }
 
 h2 {
-  align-self: flex-start; /* Align h2 to the flex-start */
+  align-self: flex-start; 
 }
 
 .navigation a {
@@ -95,6 +95,9 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   color: rgb(0, 0, 0);
   border-radius: 5px;
+  padding: 20px;
+}
+main{
   padding: 20px;
 }
 
