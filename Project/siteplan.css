@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
 
 :root {
-  --primary-color: #3F6A73;
-  --secondary-color: #1E3647;
-  --accent1-color: #9BC4BC;
-  --accent2-color: white;
+  --primary-color: #30321C;
+  --secondary-color: #4A4B2F;
+  --accent1-color: #6B654B;
+  --accent2-color: #D4DF9E;
 
   --heading-font: Oswald, Helvetica;
   --paragraph-font: Times New Roman, Times, serif;
@@ -19,7 +19,7 @@
   ); 
   --paragraph-color-on-color: white; 
   --paragraph-background-color: var(--primary-color);
-  --nav-link-color: var(--primary-color);
+  --nav-link-color: var(--accent2-color);
   --nav-background-color: var(--secondary-color);
   --nav-hover-link-color: white;
   --nav-hover-background-color: var(--primary-color);
@@ -33,7 +33,6 @@ body {
   font-size: 18px;
 }
 img {
-  display: block;
   margin: 0 auto;
 }
 h1,
