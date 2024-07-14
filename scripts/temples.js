@@ -118,7 +118,7 @@ homeLink.addEventListener("click", () => {
 newLink.addEventListener("click", () => {
   const newTemples = temples.filter((temple) => {
     const year = new Date(temple.dedicated).getFullYear();
-    return year >= 2005 && year <= 2024;
+    return year >= 2000 && year <= 2024;
   });
   createTemple(newTemples);
   heading.textContent = "New"
@@ -127,20 +127,20 @@ newLink.addEventListener("click", () => {
 oldLink.addEventListener("click", () => {
 	const newTemples = temples.filter((temple) => {
 	  const year = new Date(temple.dedicated).getFullYear();
-	  return  year < 2005;
+	  return  year < 1990;
 	});
 	createTemple(newTemples);
 	heading.textContent = "Old"
   });
 
 largeLink.addEventListener("click", () => {
-  const largeTemples = temples.filter((temple) => temple.area >= 10000);
+  const largeTemples = temples.filter((temple) => temple.area >= 90000);
   createTemple(largeTemples);
   heading.textContent = "Large"
 });
 
 smallLink.addEventListener("click", () => {
-  const smallTemples = temples.filter((temple) => temple.area < 10000);
+  const smallTemples = temples.filter((temple) => temple.area <= 10000);
   createTemple(smallTemples);
   heading.textContent = "Small"
 });
