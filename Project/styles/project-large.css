@@ -1,0 +1,30 @@
+#desktop-menu {
+    display: none;
+  }
+  #mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+  }
+  .menu-icon {
+    font-size: 2em;
+    cursor: pointer;
+    padding: 1em;
+    display: block;
+  }
+  .mobile-links {
+    display: none;
+    flex-direction: column;
+  }
+  .mobile-links a {
+    padding: 1em;
+    text-decoration: none;
+    color: var(--nav-link-color);
+    text-align: left;
+  }
+  .mobile-links a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  

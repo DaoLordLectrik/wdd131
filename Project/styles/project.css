@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+
+:root {
+  --primary-color: #30321C;
+  --secondary-color: #4A4B2F;
+  --accent1-color: #6B654B;
+  --accent2-color: #D4DF9E;
+  --heading-font: Oswald, Helvetica;
+  --paragraph-font: Times New Roman, Times, serif;
+  --headline-color-on-white: var(--primary-color); 
+  --headline-color-on-color: white; 
+  --paragraph-color-on-white: var(--primary-color); 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--accent2-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: var(--primary-color);
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  font-family: var(--paragraph-font);
+}
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header .logo {
+  max-width: 150px;
+  /* margin-bottom: 1em; */
+  margin-top: 1em;
+}
+
+.header-h1 {
+  color: var(--accent2-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+nav {
+  background-color: var(--nav-background-color);
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  padding: 1em;
+  min-width: 120px;
+  text-decoration: none;
+  color: var(--nav-link-color);
+  text-align: center;
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero {
+  width: 100%;
+  height: 300px;
+  background: var(--accent1-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+}
